@@ -10,6 +10,12 @@ namespace StackOverflowClone.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly StackOverflowdbContext _context;
+
+        public HomeController(StackOverflowdbContext context)
+        {
+            _context = context;
+        }
         public IActionResult Index()
         {
             return View();
