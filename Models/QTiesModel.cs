@@ -1,8 +1,11 @@
-﻿using System;
-namespace StackOverflowClone.Models
+﻿namespace StackOverflowClone.Models
 {
     public class QTiesModel
     {
+        public QTiesModel()
+        {
+        }
+
         public int ID { get;set; }
         public int TagID { get;set; }
         public TagsModel TagsModel { get;set; }

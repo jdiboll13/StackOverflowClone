@@ -3,6 +3,10 @@ namespace StackOverflowClone.Models
 {
     public class QuestionsModel
     {
+        public QuestionsModel()
+        {
+        }
+
         public int ID { get; set; }
         public string Title { get; set; }
         public string Body { get; set; }

@@ -1,5 +1,3 @@
-using System;
-
 namespace StackOverflowClone.Models
 {
     public class ErrorViewModel

@@ -3,6 +3,10 @@ namespace StackOverflowClone.Models
 {
     public class CommentsModel
     {
+        public CommentsModel()
+        {
+        }
+
         public int ID { get;set; }
         public string Body { get;set; }
         public DateTime DatePosted { get;set; }
